@@ -46,7 +46,17 @@ body {
 
 .hero::before {
     content: '';
-    position: absolute;
+   .hero-logo {
+       margin-bottom: 30px;
+       text-align: center;
+   }
+   
+   .hero-logo img {
+       max-width: 300px;
+       width: 100%;
+       height: auto;
+   } 
+   position: absolute;
     top: 0;
     left: 0;
     right: 0;
